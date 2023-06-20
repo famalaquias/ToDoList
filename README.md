@@ -58,6 +58,7 @@ $ npm install
 # Agora inicie o servidor
 $ npm run dev
 
----
+
+___
 
 Feito com por Fabiane Malaquias :wave: [LinkedIn](https://www.linkedin.com/in/fabianemalaquias/) e [GitHub](https://github.com/famalaquias)
