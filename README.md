@@ -61,4 +61,4 @@ $ npm run dev
 
 ---
 
-Feito com por Fabiane Malaquias :wave: [LinkedIn](https://www.linkedin.com/in/fabianemalaquias/) e [GitHub](https://github.com/famalaquias)
+Feito por Fabiane Malaquias :wave: [LinkedIn](https://www.linkedin.com/in/fabianemalaquias/) e [GitHub](https://github.com/famalaquias)
