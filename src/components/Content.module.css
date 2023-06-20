@@ -1,0 +1,93 @@
+.form {
+  display: flex;
+
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+
+  gap: 0.8rem;
+  height: 5.4rem;
+
+  margin-top: -2.7rem;
+  margin-bottom: 6.4rem;
+}
+
+.input {
+  width: 50rem;
+  height: 4.5rem;
+  padding: 1.6rem;
+
+  border-radius: 8px;
+  border: 1px solid var(--gray-700);
+
+  color: var(--gray-300);
+  background-color: var(--gray-500);
+}
+
+/* quando clicar no input */
+.input:focus {
+  outline: none;
+
+  color: var(--gray-100);
+  border: 1px solid var(--purple-dark);
+}
+
+.button {
+  color: var(--gray-100);
+  background-color: var(--blue-dark);
+
+  gap: 0.4rem;
+  width: 7rem;
+  height: 4.4rem;
+
+  font-weight: 700;
+  font-size: 1.2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: none;
+  border-radius: 8px;
+}
+
+.button:hover {
+  cursor: pointer;
+
+  background-color: var(--blue);
+}
+
+.button:disabled {
+  cursor: not-allowed;
+}
+
+.task {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: -2.5rem;
+}
+
+.task p {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.task p:first-child {
+  color: var(--blue);
+}
+
+.task p:last-child {
+  color: var(--purple);
+}
+
+.task span {
+  margin-left: 0.8rem;
+  border-radius: 999px;
+  padding: 0.2rem 0.6rem;
+
+  color: var(--gray-100);
+  background-color: var(--gray-400);
+}

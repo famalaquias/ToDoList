@@ -1,0 +1,102 @@
+.task {
+  display: flex;
+
+  align-items: center;
+  
+  padding: 1.6rem;
+  margin-top: 1.8rem;
+  margin-bottom: 1.2rem;
+
+
+  background-color: var(--gray-500);
+
+  border-radius: 8px;
+  border: 1px solid var(--gray-300);
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.task p {
+  width: 50rem;
+  font-weight: 400;
+}
+
+.task svg {
+  vertical-align: middle;
+}
+
+.task button {
+  border: none;
+  cursor: pointer;
+  background: none;
+  color: var(--gray-300);
+}
+
+.task button:hover {
+  color: var(--danger);
+}
+
+.isCompleted {
+  color: var(--gray-300);
+  text-decoration: line-through;
+}
+
+.label {
+  display: block;
+  position: relative;
+
+  padding-left: 1.8rem;
+  
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.label input {
+  width: 0;
+  height: 0;
+  opacity: 0;
+
+  cursor: pointer;
+  position: absolute;
+}
+
+.span {
+  left: 0;
+  top: -5px;
+  width: 16px;
+  height: 16px;
+
+  border-radius: 50%;
+  position: absolute;
+
+  background-color: var(--gray-500);
+  outline: 1px solid var(--blue);
+}
+
+.label input:checked ~ .span {
+  background-color: var(--purple-dark);
+  outline: 1px solid var(--purple-dark);
+}
+
+.span:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.label input:checked ~ .span:after {
+  display: block;
+}
+
+.label .span:after {
+  left: 6px;
+  top: 3px;
+  width: 3px;
+  height: 6px;
+
+  border: solid white;
+  border-width: 0 2px 2px 0;
+
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+}
