@@ -1,6 +1,6 @@
 <h1 align="center">📜 To-do List </h1>
 
-## :page_with_curl: Layout
+## 🎨 Layout
 
 ![igniteToDoList](https://github.com/famalaquias/ToDoList/assets/98343640/4edb3234-5f88-401a-b06f-bf9825048991)
 
