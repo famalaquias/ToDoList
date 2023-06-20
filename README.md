@@ -1,6 +1,5 @@
-<h1 align="center">📜 To-do List </h1>
 <p align="center">
-  <h1 align="center"><a href="https://ignite-todolist.netlify.app/">📜 To-do List </a></h1>
+  <h1 align="center"><a href="https://todolist-iproject.netlify.app/">📜 To-do List </a></h1>
 </p>
 
 ## 🎨 Layout
@@ -35,6 +34,29 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [ReactJS](https://react.dev/)
 - [Vite](https://vitejs.dev/)
 - [UUID](https://www.npmjs.com/package/uuid)
+
+
+## ⚙ Instalação
+
+Clone o projeto para o local desejado em seu computador.
+
+```bash
+$ git clone git@github.com:famalaquias/ToDoList.git
+```
+
+___
+
+#### 🚧 Executando o Projeto
+
+```bash
+# Navegue até o diretório 
+$ cd ToDoList
+
+# Instale as dependências necessárias
+$ npm install
+
+# Agora inicie o servidor
+$ npm run dev
 
 
 ---
