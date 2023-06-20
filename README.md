@@ -1,20 +1,27 @@
 <h1 align="center">📜 To-do List </h1>
+<p align="center">
+  <h1 align="center"><a href="https://ignite-todolist.netlify.app/">📜 To-do List </a></h1>
+</p>
 
 ## 🎨 Layout
 
 ![igniteToDoList](https://github.com/famalaquias/ToDoList/assets/98343640/4edb3234-5f88-401a-b06f-bf9825048991)
 
 
-
 ## :page_with_curl: Sobre
 
-O Projeto To-do List trata-se de uma página web de uma lista de tarefas. O usuário poderá colocar na lista quantas itens quiser, além de marcá-los com concluídos, mudá-los de posição ou deletá-los.
+O Projeto ToDo List trata-se de uma aplicação web de uma lista de tarefas. Nela, o usuário pode adicionar as tarefas a serem realizadas e atualizar o status das mesmas conforme forem executadas. Poderá colocar na lista quantas itens quiser, além de marcá-los comO concluídos, mudá-los de posição ou deletá-los.
 
 
 ## :man_technologist: Habilidades Desenvolvidas
 
 - [x] Criar a estrutura do HTML
 - [x] Criar a estrutura do CSS
+- [x] Adicionar uma nova tarefa
+- [x] Marcar e desmarcar uma tarefa como finalizada
+- [x] Remover uma tarefa da listagem
+- [x] Mostrar o progresso de conclusão das tarefas
+- [x] ID gerado automaticamente pelo UUID 
 - [x] Reagir a interações do usuário utilizando escutadores de eventos
 
 
@@ -24,8 +31,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [HTML5](https://biblioteca.wiki/html5/)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/CSS_basics)
-- [JavaScript ES6+](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-- [Socket.IO](https://socket.io)
+- [TypeScript](https://www.typescriptlang.org/)
+- [ReactJS](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [UUID](https://www.npmjs.com/package/uuid)
 
 
 ---
