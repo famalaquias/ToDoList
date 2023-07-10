@@ -9,7 +9,7 @@
 
 ## :page_with_curl: Sobre
 
-O Projeto ToDo List trata-se de uma aplicação web de uma lista de tarefas. Nela, o usuário pode adicionar as tarefas a serem realizadas e atualizar o status das mesmas conforme forem executadas. Poderá colocar na lista quantas itens quiser, além de marcá-los comO concluídos, mudá-los de posição ou deletá-los.
+Este é o primeiro desafio da trilha de ReactJS do Ignite, onde desenvolvi uma aplicação de controle de tarefas no estilo to-do list. Trata-se de uma aplicação web de uma lista de tarefas. Nela, o usuário pode adicionar as tarefas a serem realizadas e atualizar o status das mesmas conforme forem executadas (marcar e desmarcar uma tarefa como concluída). Poderá colocar na lista quantos itens quiser, além de marcá-los como concluídos, mudá-los de posição ou deletá-los.
 
 
 ## :man_technologist: Habilidades Desenvolvidas
